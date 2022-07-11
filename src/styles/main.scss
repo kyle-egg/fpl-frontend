@@ -1,0 +1,66 @@
+// 1. Your custom variables and variable overwrites.
+
+
+// 2. Import default variables and available mixins.
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "uikit/src/scss/uikit-theme.scss";
+
+.d1 {
+  min-width: 100px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.d2 {
+  min-width: 100px;
+  background-color: #01fc7a;
+  border: 1px solid black;
+}
+  
+.d3 {
+  min-width: 100px;
+  background-color: #e7e7e7;
+  border: 1px solid black;
+}
+
+.d4 {
+  min-width: 100px;
+  background-color: #ff1751;
+  color: white;
+  border: 1px solid black;
+}
+  
+            
+.d5 {
+  min-width: 100px;
+  background-color: #80072d;
+  color: white;
+  border: 1px solid black;
+}
+
+.fixtureblock {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixturetable {
+  display: flex;
+  text-align: center;
+}
+
+.Gws {
+  font-weight: 900;
+  min-width: 102px; 
+}
+
+.teamName {
+  font-weight: 900;
+  min-width: 100px;
+  text-align: left;
+}
